@@ -1,0 +1,23 @@
+/**Change Style of H1 element using CSS3*/
+h1{
+	font-family: sans-serif;    /*Change font-style into sans-serif*/
+	margin-left: 10px;           /*Add margin to element of 10px*/
+    text-decoration: none;       /*Add no text decoration*/
+ 
+}
+
+
+h1:hover{
+	font-family: monospace;    /*Change font-style when user bring mouse on element*/
+	text-align: center;        /*Change text position when user bring mouse on element*/
+	background: #50DC8B;       /*Change element background when screen width is max 750px*/
+}
+
+
+@media(max-width: 750px){
+	h1{
+	font-family: serif;             /*Change font-style when screen width is max 750px*/
+	text-decoration: underline;     /*Underline text when screen width is max 750px*/
+	font-size: 25px;                /*Change font size*/
+}
+}
